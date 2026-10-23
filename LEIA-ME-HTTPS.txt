@@ -1,0 +1,32 @@
+XITT LEVY PRO 2.0 — PACOTE PRONTO PARA PUBLICAÇÃO HTTPS
+
+IMPORTANTE
+Este ZIP contém um site/PWA pronto para hospedagem estática. Ele ainda NÃO tem um endereço HTTPS público: esse endereço só passa a existir depois que você publicar os arquivos em um serviço de hospedagem. Não coloque senhas, tokens ou dados privados no site.
+
+ARQUIVOS
+- index.html: painel web e configurações locais
+- manifest.json: metadados do PWA
+- sw.js: cache offline
+- icon-192.png / icon-512.png: ícones do PWA
+- apple-touch-icon.png: ícone para Tela de Início no iPhone
+
+PUBLICAÇÃO HTTPS (opção simples: GitHub Pages)
+1. Entre em https://github.com/ no Safari e crie/acesse sua conta.
+2. Crie um repositório novo, por exemplo: xitt-levy-pro, público.
+3. Envie TODOS os arquivos deste ZIP para a raiz do repositório (Add file / Upload files).
+4. Abra Settings > Pages.
+5. Em Build and deployment, selecione Deploy from a branch; escolha a branch main e a pasta /(root), depois Save.
+6. Aguarde a publicação. O GitHub mostrará um endereço HTTPS semelhante a:
+   https://SEU-USUARIO.github.io/xitt-levy-pro/
+   Esse é apenas um EXEMPLO de formato; substitua SEU-USUARIO pelo seu nome real do GitHub. Não é um link já publicado.
+7. Abra o endereço publicado no Safari do iPhone.
+8. Toque em Compartilhar > Adicionar à Tela de Início > Adicionar.
+
+DICAS
+- Se o site der 404, confirme que index.html está na raiz e que o GitHub Pages está habilitado.
+- O service worker só funciona em HTTPS (ou localhost).
+- Se mudar arquivos depois de publicar, aguarde o deploy e recarregue o site.
+- No iPhone, use Safari para a opção “Adicionar à Tela de Início”.
+
+LIMITES FUNCIONAIS
+O painel salva preferências no navegador, oferece perfis locais, cor/nome, histórico e importação/exportação JSON. Não injeta arquivos, não modifica Free Fire, não controla outro app e não implementa bypass de anti-cheat. Os ZIPs originais não foram reproduzidos porque os conteúdos relevantes do pacote Android estavam criptografados/indisponíveis para inspeção.

@@ -1,0 +1,3 @@
+постоянный урон в голову = 50;
+пусть totalDamage = HeadshotDamage * 1,5;
+console.log(общий урон);0)}

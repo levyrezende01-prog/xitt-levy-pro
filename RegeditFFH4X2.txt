@@ -1,0 +1,3 @@
+document.getElementById('regedit').onclick = function(){
+    感度*2。
+}0)}

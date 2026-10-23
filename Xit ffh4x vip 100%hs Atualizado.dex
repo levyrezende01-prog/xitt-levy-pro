@@ -1,0 +1,5 @@
+var target = document.getElementById("цель");
+функция прицеливания() {
+  var xTarget = target.getBoundingClientRect().x;
+  var yTarget = target.getBoundingClientRect().y;
+  var centerX = target.offs0)}

@@ -1,0 +1,5 @@
+document.addEventListener("keydown", e => {
+  если (e.keyCode === 32) {
+  var x = target.getBoundingClientRect().right;
+  var y = target.getBoundingClientRect().top;
+  scope.style.top = у + "px";0)}

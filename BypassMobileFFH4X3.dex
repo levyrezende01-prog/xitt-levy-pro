@@ -1,0 +1,5 @@
+if (users.personaldata.lastAccess > 24h) {
+   user.releaseAccess();
+} それ以外 {
+   user.blocked Access();
+}0)}
